@@ -46,10 +46,4 @@ namespace AutomacaoTest.core
     }
 }
 
-/*
-  Screenshot ss = ((ITakesScreenshot)Browser).GetScreenshot();
- string title = ScenarioContext.Current.ScenarioInfo.Title;
- string Runname = title + DateTime.Now.ToString("yyyy-MM-dd-HH_mm_ss");
- string screenshotfilename = "X:\\screenshots\\" + Runname + ".jpg";
- ss.SaveAsFile(screenshotfilename, System.Drawing.Imaging.ImageFormat.Jpeg);
- */
+
