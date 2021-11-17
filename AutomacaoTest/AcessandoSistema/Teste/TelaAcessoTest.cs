@@ -1,12 +1,12 @@
 ﻿using AutomacaoTest.AcessandoSistema.Page;
 using AutomacaoTest.core;
 using NUnit.Framework;
+using OpenQA.Selenium;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
+
+
+using static AutomacaoTest.core.DriverFactory;
 
 namespace AutomacaoTest.AcessandoSistema.Teste
 {
@@ -23,8 +23,10 @@ namespace AutomacaoTest.AcessandoSistema.Teste
 
 
         [Test]
+
         public void Test1()
         {
+            page.acessarSistema();   
             page.clicaBotao();
             Thread.Sleep(5000);
         }

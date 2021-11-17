@@ -13,5 +13,6 @@ namespace AutomacaoTest.AcessandoSistema.Page
         public void clicaBotao() {
             clicarButton(By.XPath("//a[@class='login']"));
         }
+
     }
 }

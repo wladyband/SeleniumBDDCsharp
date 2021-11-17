@@ -19,29 +19,18 @@ namespace AutomacaoTest.core
         [SetUp]
         public void Setup()
         {
-            getDriver().Navigate().GoToUrl("http://automationpractice.com/index.php");
+           
         }
 
         [TearDown]
         public void Finish()
-        {   
-            getDriver().Close();
+        {
+               
+                getDriver().Close();
+           
         }
 
-        [TearDown]
-        public void finalizarTeste() {
-            try { 
-                Finish();
-            }
-            catch {
-                Screenshot imagem = ((ITakesScreenshot)getDriver()).GetScreenshot();
-                string title = ScenarioContext.Current.ScenarioInfo.Title;
-                string Runname = title + DateTime.Now.ToString("yyyy-MM-dd-HH_mm_ss");
-                string screenshotfilename = "C:\\screenshots\\" + Runname + ".jpg";
-                imagem.SaveAsFile(screenshotfilename, ScreenshotImageFormat.Png); 
-            }
-            
-        }
+
 
     }
 }
