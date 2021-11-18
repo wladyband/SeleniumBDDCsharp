@@ -12,6 +12,7 @@
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Gherkin" Version="22.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Nuke.Common" Version="5.3.0" />
     <PackageReference Include="NUnit" Version="3.13.2" />
     <PackageReference Include="NUnit.ConsoleRunner" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
@@ -25,6 +26,10 @@
     <PackageReference Include="SpecFlow.NUnit" Version="3.9.40" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.40" />
     <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="evidencias\" />
   </ItemGroup>
 
 </Project>
