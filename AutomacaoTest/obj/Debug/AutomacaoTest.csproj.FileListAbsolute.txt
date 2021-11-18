@@ -1,3 +1,7 @@
+C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.AssemblyInfoInputs.cache
+C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.AssemblyInfo.cs
+C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.csproj.CoreCompileInputs.cache
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\testhost.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\testhost.exe
@@ -140,13 +144,8 @@ C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\ru
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\bin\Debug\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.AssemblyInfoInputs.cache
-C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.AssemblyInfo.cs
-C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.csproj.CoreCompileInputs.cache
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.csproj.CopyComplete
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\ref\AutomacaoTest.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.pdb
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.genruntimeconfig.cache
-C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.csproj.AssemblyReference.cache

@@ -1,4 +1,4 @@
-﻿using AutomacaoTest.core.util;
+﻿
 using OpenQA.Selenium;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
@@ -15,7 +15,7 @@ namespace AutomacaoTest.core
         private static String URL_SISTEMA = "http://automationpractice.com/index.php";
 
         private static String CAMINHO_IMAGEM = @"evidencias\..\..\";
-        private static String CAMINHO_PDF = @"evidencias\..\..\img";
+        private static String CAMINHO_PDF = @"evidencias\..\..\";
 
         public void capturaTela()
         {
@@ -24,9 +24,9 @@ namespace AutomacaoTest.core
             Screenshot imagem = ((ITakesScreenshot)getDriver()).GetScreenshot();
             string dataHora = DateTime.Now.ToString("yyyy-MM-dd-HH_mm_ss", CultureInfo.GetCultureInfo("pt-BR"));
             String telaCapturada = fullpath + "telaCapturada" + "_" + dataHora + ".png";
-           
+            String telaCapturadaPDF =  dataHora + ".pdf";
             imagem.SaveAsFile(telaCapturada, ScreenshotImageFormat.Png);
-            this.SaveImageAsPdf(telaCapturada, fullpath + "nome.pdf");
+            this.SaveImageAsPdf(telaCapturada, fullpath + telaCapturadaPDF);
         }
 
 
@@ -50,7 +50,6 @@ namespace AutomacaoTest.core
                 }
                 document.Save(pdfFileName);
             }
-
         }
 
         public void acessarSistema()
