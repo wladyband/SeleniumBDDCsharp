@@ -16,6 +16,7 @@
           "NUnit.ConsoleRunner": "3.12.0",
           "NUnit3TestAdapter": "4.0.0",
           "Nuke.Common": "5.3.0",
+          "PDFsharp": "1.50.5147",
           "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.Support": "4.0.1",
           "Selenium.WebDriver": "4.0.1",
@@ -705,6 +706,26 @@
           "lib/netstandard2.0/Octokit.dll": {
             "assemblyVersion": "0.36.0.0",
             "fileVersion": "0.36.0.0"
+          }
+        }
+      },
+      "PDFsharp/1.50.5147": {
+        "runtime": {
+          "lib/net20/PdfSharp.Charting.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          },
+          "lib/net20/PdfSharp.dll": {
+            "assemblyVersion": "1.50.5147.0",
+            "fileVersion": "1.50.5147.0"
+          }
+        },
+        "resources": {
+          "lib/net20/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp.resources.dll": {
+            "locale": "de"
           }
         }
       },
@@ -1995,6 +2016,13 @@
       "sha512": "sha512-u9SwD0wne6NrxcwOxz2kzcni4r8X4E9y+Oul5CVbnDN3q0ZFYLu5FlI+JgkADmtTsYZMZ4huGfk51S+CXQSCFA==",
       "path": "octokit/0.36.0",
       "hashPath": "octokit.0.36.0.nupkg.sha512"
+    },
+    "PDFsharp/1.50.5147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vr5KBIqcXu2hqZ43UTwPR+jqHgMrT5tsPtJvEF+mORKoBNMh3bRWgAwic0U1sT2IVb4PR5m0GyQxnmCz8jBHWg==",
+      "path": "pdfsharp/1.50.5147",
+      "hashPath": "pdfsharp.1.50.5147.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

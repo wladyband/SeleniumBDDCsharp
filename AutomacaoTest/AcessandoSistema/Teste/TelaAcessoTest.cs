@@ -1,8 +1,6 @@
 ﻿using AutomacaoTest.AcessandoSistema.Page;
 using AutomacaoTest.core;
 using NUnit.Framework;
-using OpenQA.Selenium;
-using System;
 using System.Threading;
 
 
@@ -13,6 +11,8 @@ namespace AutomacaoTest.AcessandoSistema.Teste
     public class TelaAcessoTest:BaseTest
     {
         private TelaAcessoPage page;
+      
+      
 
         [SetUp]
         public void IniciarFerramenta()
