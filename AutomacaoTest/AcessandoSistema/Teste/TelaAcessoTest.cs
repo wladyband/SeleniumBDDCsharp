@@ -26,9 +26,12 @@ namespace AutomacaoTest.AcessandoSistema.Teste
 
         public void Test1()
         {
-            page.acessarSistema();   
+            page.acessarSistema();
+            page.capturaTela();
+            
             page.clicaBotao();
-            Thread.Sleep(5000);
+            page.capturaTela();
+            
         }
     }
 }

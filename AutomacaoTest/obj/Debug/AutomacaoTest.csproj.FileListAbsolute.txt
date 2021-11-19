@@ -149,3 +149,4 @@ C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\Au
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\ref\AutomacaoTest.dll
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.pdb
 C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.genruntimeconfig.cache
+C:\Users\wladimir.bandeira\source\repos\AutomacaoTest\AutomacaoTest\obj\Debug\AutomacaoTest.csproj.AssemblyReference.cache

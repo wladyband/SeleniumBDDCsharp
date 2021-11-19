@@ -11,7 +11,7 @@ namespace AutomacaoTest.AcessandoSistema.Page
     public class TelaAcessoPage: BasePage
     {
         public void clicaBotao() {
-            clicarButton(By.XPath("//a[@class='loginw']"));
+            clicarButton(By.XPath("//a[@class='login']"));
         }
 
     }
